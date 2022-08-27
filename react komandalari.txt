@@ -1,0 +1,21 @@
+cd D:\REACT_NATIVE\Gulay
+
+npx react-native init BluetoothPrintApp -package "pro.Niyaz.bluetoothprintapp"
+
+react-native init --version 0.59.8
+
+npx react-native run-android
+
+android/app/src/main/res/values/strings.xml
+
+
+react-native init OdenisQeydlerim -package "com.odenisqeydlerim" -title "Ödəniş qeydlərim"
+
+PUBLISH 
+cd android
+./gradlew bundleRelease
+./gradlew assembleRelease
+
+cd ../
+
+npx react-native run-android --variant=release
