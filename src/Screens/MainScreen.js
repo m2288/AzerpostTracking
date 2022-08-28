@@ -1,12 +1,14 @@
-import { Text, View } from 'react-native'
+import { Text, View , StyleSheet} from 'react-native'
 import React, { Component } from 'react'
 import axios from 'axios';
 
 export default class MainScreen extends Component {
     state = [{
-        track_code: " "
+        track_code: " " 
     }]
-    
+    _GetTrackInfoFromAxios =()=>{
+      
+    }
   render() {
     return (
       <View style={styles.mainContainer}>
